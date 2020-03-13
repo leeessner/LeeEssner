@@ -1,6 +1,10 @@
+body {
+  margin: 0;
+}
+
 .le {
   background: rgb(0,114,147);
-  background: radial-gradient(circle, rgba(0,114,147,1) 0%, rgba(1,68,97,1) 100%);
+  background: radial-gradient(circle, rgba(0,86,122,1) 0%, rgba(0,68,97,1) 100%);
   min-height: 100vh;
 }
 
@@ -15,4 +19,5 @@
 svg {
   margin-top: calc(50vh-93px);
   max-height: 25vh;
+  filter:drop-shadow(0 0 4px rgba(0,0,0,.25));
 }
