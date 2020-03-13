@@ -1,0 +1,18 @@
+.le {
+  background: rgb(0,114,147);
+  background: radial-gradient(circle, rgba(0,114,147,1) 0%, rgba(1,68,97,1) 100%);
+  min-height: 100vh;
+}
+
+.le-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+svg {
+  margin-top: calc(50vh-93px);
+  max-height: 25vh;
+}
