@@ -17,7 +17,12 @@ body {
 }
 
 svg {
-  margin-top: calc(50vh-93px);
   max-height: 25vh;
   filter:drop-shadow(0 0 4px rgba(0,0,0,.25));
+}
+
+@media screen and (max-width: 1023px) {
+  svg {
+    height: 700px;
+  }
 }
